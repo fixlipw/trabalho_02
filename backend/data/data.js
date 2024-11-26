@@ -1,129 +1,131 @@
 const professores = [
     {
         id: 0,
-        nome: "Wladimir Tavares",
+        nome: "Camila Andrade",
         curso: "CC",
         titulacao: "DOUTORADO",
-        interesses: {es: false, lc: false, mc: false},
+        interesses: {es: true, lc: false, mc: true},
         universidade: {ufc: true, ifce: false}
     },
     {
         id: 1,
-        nome: "Fábio Campos",
+        nome: "Roberto Silva",
         curso: "SI",
-        titulacao: "DOUTORADO",
-        interesses: {es: false, lc: false, mc: true},
+        titulacao: "MESTRADO",
+        interesses: {es: false, lc: true, mc: false},
         universidade: {ufc: true, ifce: false}
     },
     {
         id: 2,
-        nome: "João Marcelo",
-        curso: "CC",
+        nome: "Marcelo Queiroz",
+        curso: "ES",
         titulacao: "DOUTORADO",
-        interesses: {es: false, lc: false, mc: false},
-        universidade: {ufc: true, ifce: false}
+        interesses: {es: false, lc: true, mc: true},
+        universidade: {ufc: false, ifce: true}
     },
     {
         id: 3,
-        nome: "Arthur Araruna",
-        curso: "DD",
+        nome: "Ana Beatriz Moura",
+        curso: "EC",
         titulacao: "MESTRADO",
-        interesses: {es: false, lc: false, mc: false},
-        universidade: {ufc: true, ifce: false}
+        interesses: {es: true, lc: false, mc: false},
+        universidade: {ufc: false, ifce: true}
     },
     {
         id: 4,
-        nome: "Davi Romero",
-        curso: "EC",
+        nome: "Gustavo Lima",
+        curso: "DD",
         titulacao: "DOUTORADO",
-        interesses: {es: false, lc: false, mc: false},
+        interesses: {es: true, lc: false, mc: false},
         universidade: {ufc: true, ifce: false}
     },
     {
         id: 5,
-        nome: "Rainara Maia",
+        nome: "Juliana Prado",
         curso: "SI",
-        titulacao: "DOUTORADO",
-        interesses: {es: true, lc: false, mc: false},
-        universidade: {ufc: true, ifce: false}
+        titulacao: "MESTRADO",
+        interesses: {es: false, lc: true, mc: true},
+        universidade: {ufc: false, ifce: true}
     },
     {
         id: 6,
-        nome: "Diana Braga",
-        curso: "ES",
-        titulacao: "MESTRADO",
-        interesses: {es: true, lc: false, mc: false},
+        nome: "Victor Almeida",
+        curso: "CC",
+        titulacao: "DOUTORADO",
+        interesses: {es: false, lc: false, mc: true},
         universidade: {ufc: true, ifce: false}
     }
-]
+];
+
 
 const alunos = [
     {
         id: 0,
-        nome: "Felipe de Sousa",
-        curso: "Sistemas de Informação",
-        ira: 8.8
+        nome: "Mariana Costa",
+        curso: "Engenharia de Computação",
+        ira: 8.5
     },
     {
         id: 1,
-        nome: "Paulo Henrique",
+        nome: "Lucas Pereira",
         curso: "Ciência da Computação",
-        ira: 8.2
+        ira: 9.0
     },
     {
         id: 2,
-        nome: "Gisleno Rodrigues",
-        curso: "Engenharia de Computação",
-        ira: 9.1
-    },
-    {
-        id: 3,
-        nome: "Iara Lima",
-        curso: "Sistemas de Informação",
-        ira: 8.8
-    },
-    {
-        id: 4,
-        nome: "Jorge Bezerra",
-        curso: "Ciência da Computação",
-        ira: 6.8
-    },
-    {
-        id: 5,
-        nome: "Ana Maia",
+        nome: "Sofia Fernandes",
         curso: "Design Digital",
         ira: 7.8
     },
     {
-        id: 6,
-        nome: "Rui Fonseca",
+        id: 3,
+        nome: "Enzo Rocha",
         curso: "Redes de Computadores",
-        ira: 5.3
+        ira: 6.5
+    },
+    {
+        id: 4,
+        nome: "Alice Freitas",
+        curso: "Sistemas de Informação",
+        ira: 9.3
+    },
+    {
+        id: 5,
+        nome: "Gabriel Lima",
+        curso: "Engenharia de Computação",
+        ira: 7.2
+    },
+    {
+        id: 6,
+        nome: "Fernanda Souza",
+        curso: "Ciência da Computação",
+        ira: 8.1
     },
     {
         id: 7,
-        nome: "Téo Costa",
-        curso: "Sistemas de Informação",
-        ira: 7.0
+        nome: "João Victor",
+        curso: "Redes de Computadores",
+        ira: 5.8
     },
     {
         id: 8,
-        nome: "Pedro Freitas",
+        nome: "Beatriz Almeida",
         curso: "Design Digital",
-        ira: 7.0
+        ira: 8.0
     },
     {
         id: 9,
-        nome: "Joaquim Brito",
-        curso: "Rede de Computadores",
-        ira: 4.7
+        nome: "Rafael Torres",
+        curso: "Sistemas de Informação",
+        ira: 7.5
     },
     {
         id: 10,
-        nome: "Raquel Barbosa",
-        curso: "Engenharia da Computação",
-        ira: 6.9
+        nome: "Larissa Oliveira",
+        curso: "Engenharia de Computação",
+        ira: 9.1
     }
-]
+];
+
 
 module.exports = {professores, alunos}
